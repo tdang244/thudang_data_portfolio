@@ -1,6 +1,6 @@
 # About me
 
-My name is Thu Dang \(pronounced like too dang\) and I am an aspiring analytic consultant. 
+My name is Thu Dang \(pronounced like 'too dang'\) and I am an aspiring analytic consultant. 
 
 ![](.gitbook/assets/screen-shot-2021-06-26-at-3.11.56-pm.png)
 
