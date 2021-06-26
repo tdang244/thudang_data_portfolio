@@ -12,7 +12,11 @@ I was able to collect 5 years' worth of university-related data, from 2014 - 201
 
 ### A look at the data
 
-_2017 - 2019 data \(fields have been changed to English for reading accessibility\)_
+_2014 - 2017 data \(fields have been changed from Vietnamese to English\)_
+
+\_\_
+
+_2017 - 2019 data \(fields have been changed from Vietnamese to English\)_
 
 ![Source: Vietnam Ministry of Education and Training](.gitbook/assets/screen-shot-2021-06-26-at-2.25.21-pm.png)
 
