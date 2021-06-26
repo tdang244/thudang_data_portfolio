@@ -1,20 +1,16 @@
----
-
 # Education in Vietnam
 
-## About my project
+## Education in Vietnam
 
-I taught a Research and Data Analytics course to high school and university students in Vietnam during Summer 2020. I would love to share the findings from the data I used during the course.
+### About my project
 
-## Getting the Data
+I taught a Research and Data Analytics course to high school and university students in Vietnam during Summer 2020. I would love to share the findings from the data, the visualizations, as well as the codes I used during the course. As the data are public data and need a lot of data cleaning and wrangling, I have honed these skills significantly during this project. 
 
-Finding public data for certain industries in Vietnam is a struggle, mainly due to the inadequate investment in infrastructure used to collect data. Therefore, data collected by public sources are messy and cleaning is a must. 
+### About me
 
-### Data source
+My name is Thu. I am an aspiring analytic consulting, and I'm currently an Analytic Consulting Intern at Deloitte Consulting in Singapore. Before this, I have worked in data analytics at MoMo, a leading e-Wallet company in Vietnam, and in consulting at Boston Consulting Group \(BCG\). As I love the business aspects of consulting as well as the analytical mindset in data analytics, I would love to combine these in the prospects of helping businesses scale with data-driven insights. 
 
-I gathered the Excel-formated data from the website of the Ministry of Education and Training in Vietnam
+### 
 
-[https://moet.gov.vn/thong-ke/Pages/thong-ko-giao-duc-dai-hoc.aspx](https://moet.gov.vn/thong-ke/Pages/thong-ko-giao-duc-dai-hoc.aspx)
 
-I was able to collect 5 years' worth of university-related data, from 2014 - 2019. However, the format of the 2014 - 2017 data is not consistent with that of 2017 - 2019. The biggest difference is that, from 2014 to 2017, the data do not segment the statistics for undergraduate and graduate students, while the 2017 - 2019 data do. Therefore, some strategies and assumptions are needed if we wish to look at the data in the whole 5 years. 
 
