@@ -1,8 +1,7 @@
 ---
-description: >-
-  I taught a Research and Data Analytics course to high school and university
-  students in Vietnam during Summer 2020. I would love to share the findings
-  from the data I used during the course.
+# Description
+
+I taught a Research and Data Analytics course to high school and university students in Vietnam during Summer 2020. I would love to share the findings from the data I used during the course.
 ---
 
 # Education in Vietnam
