@@ -14,11 +14,11 @@ I was able to collect 5 years' worth of university-related data, from 2014 - 201
 
 _2014 - 2017 data \(fields have been changed from Vietnamese to English\)_
 
-\_\_
+![Source: Vietnam Ministry of Education and Training](../.gitbook/assets/screen-shot-2021-06-26-at-3.02.31-pm.png)
 
 _2017 - 2019 data \(fields have been changed from Vietnamese to English\)_
 
-![Source: Vietnam Ministry of Education and Training](.gitbook/assets/screen-shot-2021-06-26-at-2.25.21-pm.png)
+![Source: Vietnam Ministry of Education and Training](../.gitbook/assets/screen-shot-2021-06-26-at-3.03.51-pm.png)
 
-
+While the 2017 - 2019 dataset breaks the student pool down to undergraduate- and graduate-level students, the 2014 - 2017 data does not. Therefore, joining these two datasets might require thinking and assumptions. 
 

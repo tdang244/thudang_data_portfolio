@@ -1,14 +1,18 @@
-# Education in Vietnam
+# About me
 
-### About my project
+My name is Thu Dang \(pronounced like too dang\) and I am an aspiring analytic consultant. 
 
-I taught a Research and Data Analytics course to high school and university students in Vietnam during Summer 2020. I would love to share the findings from the data, the visualizations, as well as the codes I used during the course. As the data are public data and need a lot of data cleaning and wrangling, I have honed these skills significantly during this project. 
+![](.gitbook/assets/screen-shot-2021-06-26-at-3.11.56-pm.png)
 
-### About me
+I'm currently an Analytic Consulting Intern at Deloitte Consulting in Singapore. 
 
-My name is Thu. I am an aspiring analytic consulting, and I'm currently an Analytic Consulting Intern at Deloitte Consulting in Singapore. Before this, I have worked in data analytics at MoMo, a leading e-Wallet company in Vietnam, and in consulting at Boston Consulting Group \(BCG\). As I love the business aspects of consulting as well as the analytical mindset in data analytics, I would love to combine these in the prospects of helping businesses scale with data-driven insights. 
+I am also a rising junior at Macalester College in Minnesota, studying Applied Mathematics & Statistics \(major\), Computer Science \(minor\), and Community & Global Health \(concentration\).
 
-### 
+Before Deloitte, I have challenged myself in various scopes of work, ranging from strategy, consulting, and data analytics, and also in different industries. Some of my milestones are:
 
+* 2019: Strategy and Insights Intern at Mindshare, a leading global media agency 
+* 2020: Data Analytics Intern at MoMo, a leading fintech company in Vietnam
+* 2021: Case Team Assistant at Boston Consulting Group \(BCG\)
 
+As I discover my passion in the business aspects of consulting as well as the analytical mindset in data analytics, I would love to combine these in the prospects of delivering data-driven insights for business problems.
 
