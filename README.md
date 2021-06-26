@@ -2,8 +2,6 @@
 
 My name is Thu Dang \(pronounced like 'too dang'\) and I am an aspiring analytic consultant. 
 
-![](.gitbook/assets/screen-shot-2021-06-26-at-3.11.56-pm.png)
-
 I'm currently an Analytic Consulting Intern at Deloitte Consulting in Singapore. 
 
 I am also a rising junior at Macalester College in Minnesota, studying Applied Mathematics & Statistics \(major\), Computer Science \(minor\), and Community & Global Health \(concentration\).
