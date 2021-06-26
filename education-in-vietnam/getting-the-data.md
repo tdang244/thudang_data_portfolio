@@ -20,5 +20,5 @@ _2017 - 2019 data \(fields have been changed from Vietnamese to English\)_
 
 ![Source: Vietnam Ministry of Education and Training](../.gitbook/assets/screen-shot-2021-06-26-at-3.03.51-pm.png)
 
-While the 2017 - 2019 dataset breaks the student pool down to undergraduate- and graduate-level students, the 2014 - 2017 data does not. Therefore, joining these two datasets might require thinking and assumptions. 
+While the 2017 - 2019 dataset breaks the student pool down to undergraduate- and graduate-level students, the 2014 - 2017 data does not. Therefore, joining these two datasets might require some assumptions. I will specify when I use the datasets individually or combine them. Also, as the data is limited, I will try to generate as many findings as possible. 
 
