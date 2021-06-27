@@ -22,3 +22,5 @@ The dataset has 5 columns x 200 rows
 * Annual Income \(k$\): Annual Income of the customer
 * Spending Score \(1-100\): Score assigned by the mall based on customer behavior and spending nature. The higher the score is, the more the customers spend. 
 
+I will start by performing K-Means Clustering on 2 variables, and then increase the number of variables gradually.
+

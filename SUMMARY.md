@@ -6,7 +6,7 @@
 
 * [My projects](introductions/my-projects.md)
 
-## Education in Vietnam
+## Education in Vietnam - R <a id="education-in-vietnam"></a>
 
 * [About the Project](education-in-vietnam/about-the-project.md)
 * [Getting acquainted with the Data](education-in-vietnam/getting-the-data.md)
@@ -14,7 +14,7 @@
 * [Undergraduate Students](education-in-vietnam/undergraduate-students.md)
 * [Female Instructor](education-in-vietnam/female-instructor.md)
 
-## Customer Segmentation with K-Means Clustering
+## Customer Segmentation with K-Means Clustering - Python <a id="customer-segmentation-with-k-means-clustering"></a>
 
 * [About the Project](customer-segmentation-with-k-means-clustering/about-the-project.md)
 * [Getting acquainted with the Data](customer-segmentation-with-k-means-clustering/getting-acquainted-with-the-data.md)
