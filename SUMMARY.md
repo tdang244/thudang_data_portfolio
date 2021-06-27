@@ -17,4 +17,6 @@
 ## Customer Segmentation with K-Means Clustering
 
 * [About the Project](customer-segmentation-with-k-means-clustering/about-the-project.md)
+* [Getting acquainted with the Data](customer-segmentation-with-k-means-clustering/getting-acquainted-with-the-data.md)
+* [Data Preprocessing](customer-segmentation-with-k-means-clustering/data-preprocessing.md)
 
