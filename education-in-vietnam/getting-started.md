@@ -1,6 +1,6 @@
-# Getting started
+# Import libraries and data
 
-I will be using R in my project. Firstly, I import the relevant libraries and the data:
+I will be using R in my project.
 
 _Importing relevant libraries_
 
