@@ -1,3 +1,7 @@
+---
+description: Customer Segmentation with K-Means Clustering
+---
+
 # About the Project
 
 ### Context
