@@ -12,6 +12,8 @@ The dataset has 5 columns x 200 rows
 
 ![The first 15 rows of the dataset. Source: Kaggle](../.gitbook/assets/screen-shot-2021-06-27-at-10.48.34-am.png)
 
+
+
 * Customer ID: Unique ID assigned to the customer
 * Gender: Gender of the customer
 * Age: Age of the customer
