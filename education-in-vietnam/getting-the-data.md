@@ -1,3 +1,7 @@
+---
+description: Education in Vietnam
+---
+
 # Getting acquainted with the Data
 
 Finding public data for certain industries in Vietnam is a struggle, mainly due to the inadequate investment in infrastructure used to collect data. Therefore, data collected by public sources are messy and cleaning is a must.

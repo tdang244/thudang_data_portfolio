@@ -1,3 +1,7 @@
+---
+description: Customer Segmentation with K-Means Clustering
+---
+
 # Getting acquainted with the Data
 
 ### Data Source
@@ -18,5 +22,5 @@ The dataset has 5 columns x 200 rows
 * Gender: Gender of the customer
 * Age: Age of the customer
 * Annual Income \(k$\): Annual Income of the customer
-* Spending Score \(1-100\): Score assigned by the mall based on customer behavior and spending nature
+* Spending Score \(1-100\): Score assigned by the mall based on customer behavior and spending nature. The higher the score is, the more the customers spend. 
 
