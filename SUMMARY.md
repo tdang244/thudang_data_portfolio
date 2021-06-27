@@ -18,5 +18,5 @@
 
 * [About the Project](customer-segmentation-with-k-means-clustering/about-the-project.md)
 * [Getting acquainted with the Data](customer-segmentation-with-k-means-clustering/getting-acquainted-with-the-data.md)
-* [Data Preprocessing: Import libraries and data](customer-segmentation-with-k-means-clustering/data-preprocessing.md)
+* [K-Means Clustering with two variables](customer-segmentation-with-k-means-clustering/data-preprocessing.md)
 
