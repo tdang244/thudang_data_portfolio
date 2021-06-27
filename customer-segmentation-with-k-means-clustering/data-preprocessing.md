@@ -2,5 +2,5 @@
 description: Customer Segmentation with K-Means Clustering
 ---
 
-# Data Preprocessing
+# Data Preprocessing: Import libraries and data
 
