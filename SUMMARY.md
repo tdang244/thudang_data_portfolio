@@ -14,3 +14,7 @@
 * [Undergraduate Students](education-in-vietnam/undergraduate-students.md)
 * [Female Instructor](education-in-vietnam/female-instructor.md)
 
+## Customer Segmentation with K-Means Clustering
+
+* [About the Project](customer-segmentation-with-k-means-clustering/about-the-project.md)
+
