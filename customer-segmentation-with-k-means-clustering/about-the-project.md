@@ -20,5 +20,7 @@ By the end of this project, I hope to:
 * Interpret what their behaviors may be based on the data
 * Devise some strategies on how the marketing can be customized to these customer segments
 
+### Reference
 
+The materials I referred to in order to complete this project are from the Machine Learning A-Z course and Customer segmentation with Python article on Towards Data Science \([https://towardsdatascience.com/customer-segmentation-with-python-31dca5d5bdad](https://towardsdatascience.com/customer-segmentation-with-python-31dca5d5bdad)\)
 
