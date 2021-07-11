@@ -20,3 +20,11 @@
 * [Getting acquainted with the Data](customer-segmentation-with-k-means-clustering/getting-acquainted-with-the-data.md)
 * [K-Means Clustering with two variables](customer-segmentation-with-k-means-clustering/data-preprocessing.md)
 
+## Triggering Data Fusion with Google Workflows - Google Cloud Platform
+
+* [About the Project](triggering-data-fusion-with-google-workflows-google-cloud-platform/about-the-project.md)
+* [How to call Data Fusion pipelines remotely from Workflows](triggering-data-fusion-with-google-workflows-google-cloud-platform/how-to-call-data-fusion-pipelines-remotely-from-workflows.md)
+* [How to generate a real-time authentication token](triggering-data-fusion-with-google-workflows-google-cloud-platform/how-to-generate-a-real-time-authentication-token.md)
+* [Check Data Fusion pipeline run status to trigger the subsequent steps](triggering-data-fusion-with-google-workflows-google-cloud-platform/check-data-fusion-pipeline-run-status-to-trigger-the-subsequent-steps.md)
+* [Before vs. After parallel execution](triggering-data-fusion-with-google-workflows-google-cloud-platform/before-vs.-after-parallel-execution.md)
+
