@@ -10,15 +10,15 @@ When I worked on this task, I couldn't find any guiding materials as the service
 
 ### Result
 
-* I managed to build a functional workflow to trigger Data Fusion pipelines remotely in 1.5 days without previous knowledge of these two services. 
-* I successfully implemented an automatic authentication process in the current workflow. 
 * I was able to cut down the run time by ~75% by implementing parallel execution for the codes. 
+* I managed to build a functional workflow to trigger Data Fusion pipelines remotely in 1.5 days without previous knowledge of these two services. 
+* I successfully implemented an automatic authentication process in the current workflow.
 
 ### Goals
 
 My goal in this blog is to: 
 
-* Document the technique that I used for educational purposes
+* Document the technique that I used for educational purpose
 * Create a resource for those who want to achieve similar tasks on GCP
 
 
