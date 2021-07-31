@@ -8,7 +8,7 @@ I triggered the Data Fusion pipelines in sequences. For example, if there are 4 
 
 However, this is extremely time-consuming since these 4 pipelines are not entirely dependent on one another. If pipeline 3 is contingent on the success of pipeline 1, pipeline 4 is contingent on the success of pipeline 2, and either pipelines 1 and 2 or 3 and 4 are independent of one another, pipelines 1 and 2 can run at the same time, and then pipelines 3 and 4 can be run when pipelines 1 and 2 finish running respectively. This is _parallel execution_. 
 
-![Pipeline Dependency](../.gitbook/assets/screen-shot-2021-07-31-at-10.57.15-am.png)
+![Pipeline Dependency](../.gitbook/assets/screen-shot-2021-07-31-at-11.03.36-am.png)
 
 ### After parallel execution
 
