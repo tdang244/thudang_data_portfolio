@@ -4,7 +4,7 @@ My name is Thu Dang \(pronounced like 'too dang'\) and I am an aspiring analytic
 
 ![](.gitbook/assets/thu-.png)
 
-I'm currently an Analytic Consulting Intern at Deloitte Consulting in Singapore.
+I'm currently a Summer Analytics Consultant at Deloitte Consulting in Singapore.
 
 I am also a rising junior at Macalester College in Minnesota, studying Applied Mathematics & Statistics \(major\), Computer Science \(minor\), and Community & Global Health \(concentration\).
 
@@ -16,7 +16,7 @@ Before Deloitte, I have challenged myself in various scopes of work, ranging fro
 
 As I discover my passion in the business aspects of consulting as well as the analytical mindset in data analytics, I would love to combine these in the prospects of delivering data-driven insights for business problems.
 
-I am well-versed in R, Python, SQL \(BigQuery\), and DataStudio. During Deloitte, I also get acquainted with Google Cloud Platform and relevant services.
+I am well-versed in R, Python, SQL \(BigQuery\), and DataStudio. During Deloitte, I also get acquainted with Google Cloud Platform and its services.
 
 For GitHub readers, you can visit my GitBook here: [https://thudang.gitbook.io/dataland/](https://thudang.gitbook.io/dataland/)
 
