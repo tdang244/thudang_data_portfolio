@@ -26,5 +26,5 @@
 * [Getting acquainted with the Data](education-in-vietnam/getting-the-data.md)
 * [Import libraries and data](education-in-vietnam/getting-started.md)
 * [Undergraduate Students](education-in-vietnam/undergraduate-students.md)
-* [Female Instructor](education-in-vietnam/female-instructor.md)
+* [Student-Instructor Ratio in Vietnam](education-in-vietnam/student-instructor-ratio-in-vietnam.md)
 
