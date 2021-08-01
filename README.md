@@ -18,5 +18,7 @@ As I discover my passion in the business aspects of consulting as well as the an
 
 I am well-versed in R, Python, SQL \(BigQuery\), and DataStudio. During Deloitte, I also get acquainted with Google Cloud Platform and its services.
 
+You can find my GitHub here: [https://github.com/tdang244](https://github.com/tdang244)
+
 For GitHub readers, you can visit my GitBook here: [https://thudang.gitbook.io/dataland/](https://thudang.gitbook.io/dataland/)
 
