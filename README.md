@@ -16,7 +16,7 @@ Before Deloitte, I have challenged myself in various scopes of work, ranging fro
 
 As I discover my passion in the business aspects of consulting as well as the analytical mindset in data analytics, I would love to combine these in the prospects of delivering data-driven insights for business problems.
 
-I am well-versed in R, Python, SQL \(BigQuery\), and DataStudio. During Deloitte, I also get acquainted with Google Cloud Platform and its services.
+I am well-versed in R, Python, SQL \(BigQuery\), and DataStudio. During Deloitte, I also get acquainted with Google Cloud Platform and its services, including Cloud Run, Workflows, and BigQuery.
 
 You can find my GitHub here: [https://github.com/tdang244](https://github.com/tdang244)
 
