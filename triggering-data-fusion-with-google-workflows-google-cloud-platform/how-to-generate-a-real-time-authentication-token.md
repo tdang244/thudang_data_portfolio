@@ -8,7 +8,7 @@ This was definitely not ideal because the token was exposed in the script, which
 
 Therefore, after trying codes out, I finally had a solution. The code I used to automatically generate a real-time token that can last up to 12 hours and without exposing it in the script is as follows: 
 
-```text
+```yaml
 - fetchToken:
     call: http.post
     args:
@@ -27,7 +27,7 @@ Therefore, after trying codes out, I finally had a solution. The code I used to 
 
 I use the `projects.serviceAccounts.generateAccessToken` HTTP method \[1\] to generate a new access token every time I execute the workflow. Since the endpoint for this API is googleapis.com, I can use the "auth" section to authorize it with OAuth2, which will use the credentials of the service account associated with the workflow to create an access token for the service account I mention in the URL. It will fetch an access token for the specified service account which I can then use later in the workflow.
 
-Note: The service account associated with the workflow \(lets name this SA\_1\) must have the "Service Account Token Creator" role in order to call the generateAccessToken method for the service account I actually want the access tokens for \(let's call this SA\_2\). So SA\_1 uses the method to create a token for SA\_2.
+Note: The service account associated with the workflow \(let's name this SA\_1\) must have the "Service Account Token Creator" role in order to call the generateAccessToken method for the service account I actually want the access tokens for \(let's call this SA\_2\). So SA\_1 uses the method to create a token for SA\_2.
 
 The`lifetime` parameter of the token can be modified to up to 12 hours by adding the SA\_2 service account to the `constraints/iam.allowServiceAccountCredentialLifetimeExtension`list constraint. You can find more details on how to use this method here \[2\].
 
@@ -41,11 +41,4 @@ The`lifetime` parameter of the token can be modified to up to 12 hours by adding
 
 \[2\]   
 [https://cloud.google.com/iam/docs/creating-short-lived-service-account-credentials\#sa-credentials-oauth](https://cloud.google.com/iam/docs/creating-short-lived-service-account-credentials#sa-credentials-oauth)
-
-
-
-```text
-[1] https://cloud.google.com/iam/docs/reference/credentials/rest/v1/projects.serviceAccounts/generateAccessToken
-[2] https://cloud.google.com/iam/docs/creating-short-lived-service-account-credentials#sa-credentials-oauth
-```
 
