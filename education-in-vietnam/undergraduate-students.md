@@ -17,6 +17,18 @@ Then I broke them down into different categories of students: Full-time, Part-ti
 My code is as follows
 
 ```r
+# Install libraries
+install.packages("RColorBrewer")
+
+# Import libraries
+library(readxl) # to read excel files
+library(dplyr) # to carry out data wrangling functions
+library(magrittr) # to write pipes (denoted as %>%)
+library(ggplot2) # to draw graphs
+library(stringr) # to wrangle strings
+library(tidyr) # to tidy data
+library(RColorBrewer) # for color palette
+
 # Import dataset
 data_2017_2019 <- read_excel("data_2017_2019.xlsx", sheet = "Final clean data")
 ```

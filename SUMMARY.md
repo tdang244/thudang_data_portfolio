@@ -24,7 +24,6 @@
 
 * [About the Project](education-in-vietnam/about-the-project.md)
 * [Getting acquainted with the Data](education-in-vietnam/getting-the-data.md)
-* [Import libraries and data](education-in-vietnam/getting-started.md)
 * [Undergraduate Students](education-in-vietnam/undergraduate-students.md)
 * [Student-Instructor Ratio in Vietnam](education-in-vietnam/student-instructor-ratio-in-vietnam.md)
 
