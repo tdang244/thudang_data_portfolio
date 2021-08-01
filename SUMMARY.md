@@ -14,11 +14,6 @@
 * [Check Data Fusion pipeline run status to trigger the subsequent steps](triggering-data-fusion-with-google-workflows-google-cloud-platform/check-data-fusion-pipeline-run-status-to-trigger-the-subsequent-steps.md)
 * [Before vs. After parallel execution](triggering-data-fusion-with-google-workflows-google-cloud-platform/before-vs.-after-parallel-execution.md)
 
-## CREATE AND DEPLOY A MICROSERVICE TO CLOUD RUN - GOOGLE CLOUD PLATFORM
-
-* [About the Project](create-and-deploy-a-microservice-to-cloud-run-google-cloud-platform/about-the-project.md)
-* [The process](create-and-deploy-a-microservice-to-cloud-run-google-cloud-platform/the-process.md)
-
 ## Customer Segmentation with K-Means Clustering - Python <a id="customer-segmentation-with-k-means-clustering"></a>
 
 * [About the Project](customer-segmentation-with-k-means-clustering/about-the-project.md)

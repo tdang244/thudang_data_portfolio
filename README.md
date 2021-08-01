@@ -1,6 +1,6 @@
 # About me
 
-My name is Thu Dang \(pronounced like 'too dang'\) and I am an aspiring analytic consultant.
+My name is Thu Dang \(pronounced like 'too dang'\) and I am an aspiring Product Manager/Analytic Consultant.
 
 ![](.gitbook/assets/thu-.png)
 
