@@ -2,6 +2,8 @@
 
 My name is Thu Dang (pronounced like 'too dang') and I am an aspiring Data Scientist.
 
+![](<.gitbook/assets/Screen Shot 2021-12-25 at 10.26.02 PM.png>)
+
 I'm currently studying Applied Mathematics and Statistics, Computer Science, and Community and Global Health at Macalester College.&#x20;
 
 During my gap year in 2020 - 2021, I was Summer Analytics Consultant at Deloitte Consulting in Singapore.
