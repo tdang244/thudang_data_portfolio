@@ -1,17 +1,17 @@
 # How to call Data Fusion pipelines remotely from Workflows
 
-One of the tricky parts of this process is to find an appropriate URL to call the Data Fusion pipeline from Workflows. The URL should look as follows: 
+One of the tricky parts of this process is to find an appropriate URL to call the Data Fusion pipeline from Workflows. The URL should look as follows:&#x20;
 
 `https://fusionpipeline-PROJECT-ID-dot-usw1.datafusion.googleusercontent.com/api/v3/namespaces/default/apps/NAME-OF-DATAFUSION-PIPELINE/workflows/DataPipelineWorkflow/start`
 
-Don't worry, I'll help you decode this URL right now. But first, you need to understand how Data Fusion is created in order for my explanation to make sense. 
+Don't worry, I'll help you decode this URL right now. But first, you need to understand how Data Fusion is created in order for my explanation to make sense.&#x20;
 
-Data Fusion is a GCP service that is built with an open-source core \([CDAP](https://cdap.io/)\) for pipeline portability. Therefore, information on the API calls used for Data Fusion can be found in CDAP documentation. 
+Data Fusion is a GCP service that is built with an open-source core ([CDAP](https://cdap.io)) for pipeline portability. Therefore, information on the API calls used for Data Fusion can be found in CDAP documentation.&#x20;
 
-Okay, let's decode how do we find this URL. 
+Okay, let's decode how do we find this URL.&#x20;
 
-1. Get the first part of the URL a.k.a. API endpoint [`https://fusionpipeline-PROJECT-ID-dot-usw1.datafusion.googleusercontent.com/api`](https://fusionpipeline-PROJECT-ID-dot-usw1.datafusion.googleusercontent.com/api)using this Data Fusion API method projects.locations.instances.get 
-2. Get the second part of the URL`v3/namespaces/default/apps/NAME-OF-DATAFUSION-PIPELINE/workflows/DataPipelineWorkflow/start`from the CDAP documentation. 
+1. Get the first part of the URL a.k.a. API endpoint [`https://fusionpipeline-PROJECT-ID-dot-usw1.datafusion.googleusercontent.com/api`](https://fusionpipeline-project-id-dot-usw1.datafusion.googleusercontent.com/api)using this Data Fusion API method projects.locations.instances.get&#x20;
+2. Get the second part of the URL`v3/namespaces/default/apps/NAME-OF-DATAFUSION-PIPELINE/workflows/DataPipelineWorkflow/start`from the CDAP documentation.&#x20;
 
 Then I'll show you how we can call the URL from Workflows.
 
@@ -23,11 +23,11 @@ Access the Data Fusion API method projects.locations.instances.get here: [https:
 
 ![projects.locations.instances.get method](../.gitbook/assets/screen-shot-2021-07-11-at-10.24.06-pm.png)
 
-You can try out the API on the same page to get the API endpoint: 
+You can try out the API on the same page to get the API endpoint:&#x20;
 
 ![Try this API on the same page](../.gitbook/assets/screen-shot-2021-07-11-at-10.25.00-pm.png)
 
-After filling out the instance resource name in the format `projects/{project}/locations/{location}/instances/{instance}`, you can execute and get this output, from which you can extract the first part from the `apiEndpoint`. 
+After filling out the instance resource name in the format `projects/{project}/locations/{location}/instances/{instance}`, you can execute and get this output, from which you can extract the first part from the `apiEndpoint`.&#x20;
 
 ```yaml
 {
@@ -49,23 +49,23 @@ After filling out the instance resource name in the format `projects/{project}/l
 }
 ```
 
-Retrieve the API endpoint: 
+Retrieve the API endpoint:&#x20;
 
 `apiEndpoint": "https://fusionpipeline-PROJECT-ID-dot-usw1.datafusion.googleusercontent.com/api`
 
 #### Step 2: The second part
 
-Access the relevant CDAP documentation here: [https://cdap.atlassian.net/wiki/spaces/DOCS/pages/477560983/Lifecycle+Microservices\#Start-a-Program](https://cdap.atlassian.net/wiki/spaces/DOCS/pages/477560983/Lifecycle+Microservices#Start-a-Program)
+Access the relevant CDAP documentation here: [https://cdap.atlassian.net/wiki/spaces/DOCS/pages/477560983/Lifecycle+Microservices#Start-a-Program](https://cdap.atlassian.net/wiki/spaces/DOCS/pages/477560983/Lifecycle+Microservices#Start-a-Program)
 
-The second part is fundamentally an HTTP POST request to enable Workflows to locate and run the relevant Workflows. The syntax of this request is: 
+The second part is fundamentally an HTTP POST request to enable Workflows to locate and run the relevant Workflows. The syntax of this request is:&#x20;
 
 `POST /v3/namespaces/<namespace-id>/apps/<app-id>/<program-type>/<program-id>/start`
 
-To use this in our context, it would be like this: 
+To use this in our context, it would be like this:&#x20;
 
 `v3/namespaces/default/apps/NAME-OF-DATAFUSION-PIPELINE/workflows/DataPipelineWorkflow/start`
 
-where 
+where&#x20;
 
 `namespace-id = default`
 
@@ -81,7 +81,7 @@ Okay, you have finished creating the Data Fusion URL used for remote triggering!
 
 Workflows uses the YAML script to run services. The YAML script used to create an HTTP POST request for the Data Fusion URL is as follows:
 
-```text
+```
 - triggerDataFusion_Pipeline: 
     call: http.post
     args:
@@ -90,24 +90,22 @@ Workflows uses the YAML script to run services. The YAML script used to create a
             Authorization: ${token}     
 ```
 
-This code will create an HTTP POST request to the server in order to trigger Data Fusion pipelines to run, and then authenticate it with the authentication token. Within 2-3 seconds, the Data Fusion pipeline will run. 
+This code will create an HTTP POST request to the server in order to trigger Data Fusion pipelines to run, and then authenticate it with the authentication token. Within 2-3 seconds, the Data Fusion pipeline will run.&#x20;
 
-So the next question is: 
+So the next question is:&#x20;
 
 _How do we automatically generate a real-time token to authenticate the process?_
 
 **References**
 
-\[1\]   
-****[https://cloud.google.com/data-fusion/docs/reference/rest/v1beta1/projects.locations.instances/get](https://cloud.google.com/data-fusion/docs/reference/rest/v1beta1/projects.locations.instances/get)\*\*\*\*
+\[1] \
+****[https://cloud.google.com/data-fusion/docs/reference/rest/v1beta1/projects.locations.instances/get](https://cloud.google.com/data-fusion/docs/reference/rest/v1beta1/projects.locations.instances/get)****
 
-\[2\]  
-[https://cdap.atlassian.net/wiki/spaces/DOCS/pages/477560983/Lifecycle+Microservices\#Start-a-Program](https://cdap.atlassian.net/wiki/spaces/DOCS/pages/477560983/Lifecycle+Microservices#Start-a-Program)
+\[2]\
+[https://cdap.atlassian.net/wiki/spaces/DOCS/pages/477560983/Lifecycle+Microservices#Start-a-Program](https://cdap.atlassian.net/wiki/spaces/DOCS/pages/477560983/Lifecycle+Microservices#Start-a-Program)
 
-  
+****\
 ****
-
-
 
 
 
