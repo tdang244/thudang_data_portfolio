@@ -11,6 +11,7 @@
 * [About the Project](melbourne-housing-analysis-using-machine-learning-with-r/about-the-project.md)
 * [Data Cleaning](melbourne-housing-analysis-using-machine-learning-with-r/data-cleaning.md)
 * [Regression - The Process and Results](melbourne-housing-analysis-using-machine-learning-with-r/regression-the-process-and-results.md)
+* [K-means Clustering - The Process and Results](melbourne-housing-analysis-using-machine-learning-with-r/k-means-clustering-the-process-and-results.md)
 
 ## Triggering Data Fusion with Google Workflows - Google Cloud Platform
 
