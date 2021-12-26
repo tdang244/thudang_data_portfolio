@@ -1,5 +1,7 @@
 # About the Project
 
+The R code and code appendix for this project can be found [here](https://github.com/tdang244/Melbourne-Housing-Analysis) on my GitHub.&#x20;
+
 ### Context
 
 As a final deliverable for my Statistical Machine Learning course, I performed two analyses on [the Melbourne housing dataset on Kaggle](https://www.kaggle.com/anthonypino/melbourne-housing-market) using Machine Learning techniques with R.
