@@ -6,6 +6,12 @@
 
 * [My projects](introductions/my-projects.md)
 
+## MELBOURNE HOUSING ANALYSIS USING MACHINE LEARNING WITH R
+
+* [About the Project](melbourne-housing-analysis-using-machine-learning-with-r/about-the-project.md)
+* [Data Cleaning](melbourne-housing-analysis-using-machine-learning-with-r/data-cleaning.md)
+* [Regression - The Process and Results](melbourne-housing-analysis-using-machine-learning-with-r/regression-the-process-and-results.md)
+
 ## Triggering Data Fusion with Google Workflows - Google Cloud Platform
 
 * [About the Project](triggering-data-fusion-with-google-workflows-google-cloud-platform/about-the-project.md)
@@ -14,16 +20,15 @@
 * [Check Data Fusion pipeline run status to trigger the subsequent steps](triggering-data-fusion-with-google-workflows-google-cloud-platform/check-data-fusion-pipeline-run-status-to-trigger-the-subsequent-steps.md)
 * [Before vs. After parallel execution](triggering-data-fusion-with-google-workflows-google-cloud-platform/before-vs.-after-parallel-execution.md)
 
-## Customer Segmentation with K-Means Clustering - Python <a id="customer-segmentation-with-k-means-clustering"></a>
+## Customer Segmentation with K-Means Clustering - Python <a href="#customer-segmentation-with-k-means-clustering" id="customer-segmentation-with-k-means-clustering"></a>
 
 * [About the Project](customer-segmentation-with-k-means-clustering/about-the-project.md)
 * [Getting acquainted with the Data](customer-segmentation-with-k-means-clustering/getting-acquainted-with-the-data.md)
 * [K-Means Clustering with two variables](customer-segmentation-with-k-means-clustering/data-preprocessing.md)
 
-## Education in Vietnam - R <a id="education-in-vietnam"></a>
+## Education in Vietnam - R <a href="#education-in-vietnam" id="education-in-vietnam"></a>
 
 * [About the Project](education-in-vietnam/about-the-project.md)
 * [Getting acquainted with the Data](education-in-vietnam/getting-the-data.md)
 * [New undergraduate students annually](education-in-vietnam/new-undergraduate-students-annually.md)
 * [Student-Instructor Ratio in Vietnam](education-in-vietnam/student-instructor-ratio-in-vietnam.md)
-
