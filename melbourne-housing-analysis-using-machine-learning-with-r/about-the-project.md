@@ -10,7 +10,7 @@ My motivation to analyze a housing dataset is Simpson's Paradox. I remembered se
 
 ![](https://lh3.googleusercontent.com/Wim9MXzudLgImHrzbq20-g\_VB1KNCJgOWbTRla8-EUbYszR-gWzFacNPcIvA5giN2dn07AlLVtUw3m6h0BlndzR0yqRqGuEzmuI3GZYjl2vmoTTW\_EFlszq--Sv3HAb2XaDbmZAkIM7s)
 
-I conducted two types of analyses with three different research questions:
+I conducted two types of analyses with two different research questions:
 
 * Regression: _How can we predict the price of Melbourne houses?_
   * I first fit an ordinary least square (OLS) model with a linearity assumption to predict the house price. I then plotted the residuals of the predictions against the real values to see if there are any patterns of non-linearity. Next, I used LASSO to select the top 5 variables that matter in price prediction and fit the _Generalized Additive Model_ (GAM), which is a non-linear model, to better capture the non-linearity pattern in the data for more accurate prediction. &#x20;
