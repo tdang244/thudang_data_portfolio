@@ -6,7 +6,7 @@
 
 * [My projects](introductions/my-projects.md)
 
-## MELBOURNE HOUSING ANALYSIS USING MACHINE LEARNING WITH R
+## Melbourne Housing Analysis Using Machine Learning With R
 
 * [About the Project](melbourne-housing-analysis-using-machine-learning-with-r/about-the-project.md)
 * [Data Cleaning](melbourne-housing-analysis-using-machine-learning-with-r/data-cleaning.md)
