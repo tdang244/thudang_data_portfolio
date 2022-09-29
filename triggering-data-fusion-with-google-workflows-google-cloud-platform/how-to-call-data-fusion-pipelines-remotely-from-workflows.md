@@ -6,7 +6,7 @@ One of the tricky parts of this process is to find an appropriate URL to call th
 
 Don't worry, I'll help you decode this URL right now. But first, you need to understand how Data Fusion is created in order for my explanation to make sense.&#x20;
 
-Data Fusion is a GCP service that is built with an open-source core ([CDAP](https://cdap.io)) for pipeline portability. Therefore, information on the API calls used for Data Fusion can be found in CDAP documentation.&#x20;
+Data Fusion is a GCP service that is built with an open-source core ([CDAP](https://cdap.io/)) for pipeline portability. Therefore, information on the API calls used for Data Fusion can be found in CDAP documentation.&#x20;
 
 Okay, let's decode how do we find this URL.&#x20;
 

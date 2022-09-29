@@ -6,6 +6,13 @@
 
 * [My projects](introductions/my-projects.md)
 
+## Silicon Valley Evolution and Its Impact on House Values <a href="#introductions" id="introductions"></a>
+
+* [About the Project](introductions-1/about-the-project.md)
+* [Results and Discussion](introductions-1/results-and-discussion.md)
+* [Full Result](introductions-1/full-result.md)
+* [References](introductions-1/references.md)
+
 ## Melbourne Housing Analysis Using Machine Learning With R
 
 * [About the Project](melbourne-housing-analysis-using-machine-learning-with-r/about-the-project.md)
