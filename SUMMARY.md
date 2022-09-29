@@ -10,7 +10,7 @@
 
 * [About the Project](introductions-1/about-the-project.md)
 * [Results and Discussion](introductions-1/results-and-discussion.md)
-* [Full Result](introductions-1/full-result.md)
+* [Are you curious about the full result?](introductions-1/are-you-curious-about-the-full-result.md)
 * [References](introductions-1/references.md)
 
 ## Melbourne Housing Analysis Using Machine Learning With R
